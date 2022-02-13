@@ -1,0 +1,5 @@
+node_env
+.env
+get_anegdots.rest
+new_anegdot.rest
+update_anegdot.rest
