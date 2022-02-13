@@ -1,4 +1,4 @@
-node_env
+node_modules
 .env
 get_anegdots.rest
 new_anegdot.rest
