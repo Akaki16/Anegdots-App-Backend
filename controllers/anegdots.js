@@ -48,7 +48,7 @@ router.put('/:id', async (req, res) => {
     const updatedAnegdot = await Anegdot.findByIdAndUpdate(req.params.id, anegdot, { new: true });
 
     if (updatedAnegdot) {
-        res.status(201).end();
+        res.status(201).json(updatedAnegdot);
     } else {
         res.status(400).json({ error: 'anegdot cannot be updated' });
     }
